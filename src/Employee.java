@@ -126,7 +126,7 @@ public class Employee {
     {
         try
         {
-            FileWriter in = new FileWriter("C:\\Users\\aasth\\IdeaProjects\\EmailAdministrationSystem\\info.txt");
+            FileWriter in = new FileWriter("src/info.txt");
             in.write("First Name: "+this.firstName);
             in.append("\nLast Name: "+this.lastName);
             in.append("\nEmail: "+this.email);
